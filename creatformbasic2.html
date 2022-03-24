@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creatformbasic2</title>
+</head>
+<link rel="stylesheet" href="creatformbasic2.css">
+<body>
+<div>
+    <form method="get">
+        <table id="td">
+            <tr id="bk">
+                <th class="" colspan="2"><span style="color: blue">ĐĂNG KÍ HỌC VIÊN</span></th>
+            </tr>
+            <tr>
+                <td>
+                    <p class="bl"><label for="name">Họ và Tên</label></p>
+                    <input type="text" id="name" name="name" title="Nhập họ và tên của bạn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="bl">Ngày sinh</p>
+                    <input type="date" name="ngaysinh">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="bl">Giới Tính</p>
+                    <input type="radio" name="gioitinh" value="Gender">Nam
+                    <input type="radio" name="gioitinh" value="Gender">Nữ
+                    <input type="radio" name="gioitinh" value="Gender">3D
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="bl"><label for="adr">Địa Chỉ</label></p>
+                        <textarea id="adr" name="adr" title="Nhập địa chỉ nơi ở hiện tại"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="bl"><label for="lop" >Lớp</label></p>
+                    <select id="lop" name="lop">
+                        <option>---Chọn Lớp---</option>
+                        <option>---A1---</option>
+                        <option>---A2---</option>
+                        <option>---A3---</option>
+                        <option>---A4---</option>
+                        <option>---A5---</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="bl"><label for="email">Email</label></p>
+                    <input type="text" id="email" name="email" title="Nhập địa chỉ email của bạn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="bl"><label for="sdt">Số Điện Thoại</label></p>
+                    <input type="number" id="sdt" name="sdt" title="Nhập số điện thoại của bạn">
+                </td>
+            </tr><br>
+            <tr>
+                <td>
+                    <button type="submit">Đăng Nhập</button>
+                    <button type="reset" title="Xoá hết dữ liệu đang có">Nhập lại</button>
+                </td>
+            </tr>
+            <tr></tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
