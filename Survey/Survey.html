@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>survey</title>
+</head>
+<link rel="stylesheet" href="Survey.css">
+<body>
+<div>
+    <form action="Survey.html" method="post">
+        <h1>Market Research Survey</h1>
+        <p>Please take a few moments to complete this satisfaction survey</p>
+        <hr style="border-top: 2px dotted black"/>
+        <p><b>What is your age ranger?</b></p>
+        <select name="age"><br>
+            <option>18-24</option>
+            <option>25-34</option>
+            <option>35-50</option>
+            <option>50+</option>
+        </select>
+        <p><b>What is your yearly income ranger?</b></p>
+        <select>
+            <option>$0-$25,000</option>
+            <option>$25,001-$50,000</option>
+            <option>$50,001-$100,000</option>
+            <option>+$100,000</option>
+        </select>
+        <p><b>Gender Identity</b></p>
+        <input type="radio" name="gender"value="male">Male<br>
+        <input type="radio" name="gender"value="female">Female<br>
+        <input type="radio" name="gender"value="nonbilary">Nonbilary<br>
+        <input type="radio" name="gender"value="other">Other<br><br>
+        <input type="text" id="other" name="text" placeholder="Không sử dụng quá 250 kí tự"><br>
+        <p><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b></p><br>
+        <input type="checkbox">Product 1<br>
+        <input type="checkbox">Product 2<br>
+        <input type="checkbox">Product 3<br>
+
+        <p><b>How often would you use our new product?</b></p>
+        <input type="radio">Daily<br>
+        <input type="radio">Weekly<br>
+        <input type="radio">Monthly<br>
+
+        <p><b>What would you pay for the new product?</b></p>
+        <table>
+            <tr>
+                <td>
+                    &#36;
+                </td>
+                <td>
+                    <input id="dollas" type="number" name="tien">
+                </td>
+                <td>
+                    &middot;
+                </td>
+                <td>
+                    <input id="cents" type="number" name="sodu">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Dollars</td>
+                <td></td>
+                <td>Cents</td>
+            </tr>
+        </table>
+            <p><b>What features would you like to see in the new product.</b></p>
+            <textarea id="area"></textarea>
+            <p><b>Please rate your level of agreement with the following statements.</b></p>
+        <table class="a">
+            <tr class="b">
+                <th></th>
+                <th class="c">Strongly Disagree</th>
+                <th class="c">Disagree</th>
+                <th class="c">Agree</th>
+                <th class="c">Strongly Agree</th>
+            </tr>
+            <tr class="b">
+                <td class="d">Our products are priced fairly.</td>
+                <td class="d"><input id="e" type="radio" name="1"></td>
+                <td class="d"><input type="radio" name="1"></td>
+                <td class="d"><input type="radio" name="1"></td>
+                <td class="d"><input type="radio" name="1"></td>
+            </tr>
+            <tr class="b">
+                <td class="d">Our products are high quality.</td>
+                <td class="d"><input type="radio" name="2"></td>
+                <td class="d"><input type="radio" name="2"></td>
+                <td class="d"><input type="radio" name="2"></td>
+                <td class="d"><input type="radio" name="2"></td>
+            </tr>
+            <tr class="b">
+                <td class="d">You would recommend our product to a friend or coworker.</td>
+                <td class="d"><input type="radio" name="3"></td>
+                <td class="d"><input type="radio" name="3"></td>
+                <td class="d"><input type="radio" name="3"></td>
+                <td class="d"><input type="radio" name="3"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" name="sumbit"title="Xác nhận biểu mẫu">
+    </form>
+</div>
+</body>
+</html>
