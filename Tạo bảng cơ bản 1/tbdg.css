@@ -1,0 +1,61 @@
+.tkb{
+    width: 800px;
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.blue{
+    color: blue;
+    text-align: left;
+}
+.blue1{
+    color: blue;
+    text-align: right;
+}
+#tb1, tb2{
+    padding: 50px;
+    font-family: Arial;
+    border-collapse: collapse;
+}
+#tb1{
+    width: 800px;
+    height: 60px;
+}
+#tb2{
+    border: 1px solid;
+    width: 800px;
+    border-collapse: collapse;
+}
+#tb2 td{
+    border: 1px solid;
+}
+.ye{
+    background: #FEFB00;
+    text-align: center;
+}
+.a{
+    text-align: center;
+    background: orange;
+}
+.b{
+    text-align: left;
+    background: #F7F7F7;
+}
+.c{
+    text-align: center;
+}
+/*.a{*/
+/*    text-align: left;*/
+/*}*/
+/*.b{*/
+/*    background: yellow;*/
+/*}*/
+/*.c{*/
+/*    background: orange;*/
+/*}*/
+/*.d{*/
+/*    background: white;*/
+/*}*/
+/*.e{*/
+/*    background: #F7F7F7;*/
+/*}*/

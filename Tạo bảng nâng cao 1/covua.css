@@ -1,0 +1,21 @@
+#tb{
+    border-collapse: collapse;
+}
+#tb td{
+    border: 1.5px solid;
+    width: 30px;
+    height: 30px;
+}
+tr:nth-child(odd)  td:nth-child(odd){
+ background-color: black;
+}
+tr:nth-child(even) td:nth-child(even){
+    background-color: black;
+}
+th{
+    background-color: orange;
+}
+/*td:nth-child(even) {*/
+/*    color: white;*/
+/*}*/
+

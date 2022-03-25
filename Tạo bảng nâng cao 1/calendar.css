@@ -1,0 +1,43 @@
+#tb1{
+    font-family: 'Open Sans', sans-serif ;
+    width: 400px;
+    text-align: center;
+}
+#tb2{
+    font-family: 'Open Sans', sans-serif ;
+    text-align: center;
+    width: 400px;
+    border-collapse: collapse;
+}
+#tb2 td{
+    border: 2px solid #C1C1C1;
+    text-align: center;
+}
+
+h1{
+    width: 400px;
+    color: blue;
+    text-align: center;
+}
+sub{
+    color: black;
+    font-size: 7px;
+}
+.su{
+    color: white;
+    background: red;
+}
+.su1{
+    color: red;
+}
+.ng{
+    color: white;
+    background: yellow;
+}
+.sa{
+    color: white;
+    background: blue;
+}
+.sa1{
+    color: blue;
+}
